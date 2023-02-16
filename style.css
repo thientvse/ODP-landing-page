@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: Roboto-Light;
+    src: url('../font/Roboto-Light.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: Roboto-Medium;
+    src: url('../font/Roboto-Medium.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Roboto-ExtraBold';
+    src: url('../font/Roboto-Bold.ttf') format('truetype');
+  }
+
+.menu-container {
+    color: #f9faf8;
+    background-color: #1F2937;  /* Blue */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+.menu {
+    /* border: 1px solid #fff; */
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links{
+    font-family: Roboto-Light;
+    display: flex;
+    font-weight: 100;
+    font-size: 14px;
+    justify-content: flex-end;
+}
+
+.logout {
+    margin-left: 20px;
+  }
+
+
+.header-container{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  width: 900px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.image-container{
+    width: 100%;
+    height: 150px;
+    color: #D6E9FE;
+    
+}
+
+.subtext{
+    word-wrap: normal;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: Roboto-Light;
+}
+
+.header-left{
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+
+.header-right{
+    width: 50%;
+    text-align: right;
+    color: white;
+}
+
+.image-header{
+    justify-content: right;
+}
+
+.heading{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.btn-primary{
+    margin-top: 10px;
+}
+
+
+.body-container{
+    width: 100%;
+}
+.secondary-text{
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    justify-content: center;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: normal;
+}
+
+.list-info{
+    border: 1px solid #000;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 100px;
+    flex: 50;
+  }
+
+.h6 {
+    word-wrap: normal;
+    font-weight: 100;
+    font-size: 18px;
+    font-family: Roboto-Light;
+    text-align: center;
+}
+
+.quote-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote{
+    font-weight: 50;
+    font-size: 20px;
+    font-family: Roboto-Light
+}
+
+.d-flex{
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .footer-container{
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signup-heading{
+  font-weight: 50;
+  font-size: 18px;
+  color: #3882f6;
+  text-align: left;
+  font-family: Roboto-Light
+}
+.signup-note{
+  font-weight: 50;
+  font-size: 14px;
+  color: #3882f6;
+  text-align: left;
+  font-family: Roboto-Light
+}
+
+.button-bottom{
+  margin-top: 20px;
+  text-align: center;
+}
